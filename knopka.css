@@ -1,0 +1,38 @@
+.btn {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 50px 650px;
+    border:none;
+   
+    
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #315efb;
+    transition: 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: rgb(176, 133, 226);
+  }
+  
+  .btn_text {
+    margin-right: 10px;
+  }
+  
+  .btn_icon {
+    display: flex;
+  }
+  
+  .btn_icon2{
+    width: 16px;
+    height: 16px;
+  }
+  
+  .hidden {
+    display: none;
+  }
